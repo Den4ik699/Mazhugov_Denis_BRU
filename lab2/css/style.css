@@ -10,6 +10,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,span{
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .main {
@@ -125,7 +126,6 @@ h1,h2,h3,h4,h5,h6,span{
     user-select: none;
     color: white;
     font-size: 4rem;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -337,7 +337,6 @@ h1,h2,h3,h4,h5,h6,span{
 }
 
 .image-descr h2 {
-    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: lighter;
 }
@@ -431,7 +430,6 @@ h1,h2,h3,h4,h5,h6,span{
 }
 
 .descr-with-nums h2 {
-    text-transform: uppercase;
     font-size: 30px;
     font-weight: lighter;
 }
@@ -459,7 +457,6 @@ h1,h2,h3,h4,h5,h6,span{
 
 .testimonials h2 {
     text-align: center;
-    text-transform: uppercase;
     font-size: 30px;
     font-weight: lighter;
     padding-bottom: 10px;
@@ -530,7 +527,6 @@ h1,h2,h3,h4,h5,h6,span{
 .recent-blog-posts h2 {
     padding-bottom: 10px;
     text-align: center;
-    text-transform: uppercase;
     font-size: 30px;
     font-weight: lighter;
 }
@@ -549,7 +545,6 @@ h1,h2,h3,h4,h5,h6,span{
 }
 
 .image-descrip h2 {
-    text-transform: uppercase;
     font-size: 1.2rem;
     font-weight: lighter;
     color: #71bc42;
@@ -620,7 +615,6 @@ h1,h2,h3,h4,h5,h6,span{
 }
 
 .main-footer h4{
-    text-transform: uppercase;
     color:#fdf7ed;
     padding-bottom: 20px;
     font-weight: lighter;
