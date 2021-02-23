@@ -498,7 +498,7 @@ h1,h2,h3,h4,h5,h6,span{
 .arrow-next-pers {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -509,7 +509,7 @@ h1,h2,h3,h4,h5,h6,span{
 .arrow-prev-pers {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     position: relative;
     background-color: white;
     width: 40px;
@@ -701,6 +701,11 @@ h1,h2,h3,h4,h5,h6,span{
     width: 30px;
     padding:5px
 }
+
+.social img:hover{
+    opacity: 0.5;
+}
+
 
 .last-txt{
     padding-top: 40px;
