@@ -140,6 +140,12 @@
     .sixth-block__info {
         width: 100%;
     }
+
+    .sixth-block__img{
+        min-height: 350px;
+        background-size: cover;
+        width: 100%;
+    }
 }
 
 
@@ -211,6 +217,12 @@
     }
 
     .sixth-block__info {
+        width: 100%;
+    }
+
+    .sixth-block__img{
+        min-height: 350px;
+        background-size: cover;
         width: 100%;
     }
 }
