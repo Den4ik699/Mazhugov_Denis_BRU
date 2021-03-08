@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ef187d787c.js" crossorigin="anonymous"></script>
 
@@ -19,12 +20,13 @@
         </div>
 
         <div class="welcome-page">
-            <div class="nav">
+            <div class="nav responsive" id = "myTopnav">
                 <a href="">Home</a>
                 <a href="">About me</a>
                 <a href="">Experiences</a>
                 <a href="">Testimonial</a>
                 <a href="">Contact</a>
+                <a id="menu" href="#" class="icon">	&#9776</a>
             </div>
 
             <div class="welcome-message">
@@ -236,24 +238,101 @@
             </div>
         </div>
         <div class="subblock-img image-two"></div>
+    </div>
 
-        <div class="big-picture">
-            <div class="big-picture__dark-picture"></div>
-            <div class="dark-picture__content">
-                <div class="dark-picture__star">
-                    <div class="fas fa-star"></div>
+    <div class="big-picture">
+        <div class="big-picture__dark-picture"></div>
+        <div class="dark-picture__content">
+            <div class="dark-picture__star">
+                <div class="fas fa-star"></div>
+            </div>
+            <div class="dark-picture__text">
+                Proin lobortis eu diam at facilisis. Fusce nisi nibh,<br>
+                molestie in vestibulum quis, auctor et orci.
+            </div>
+            <div class="dark-picture__little-text">
+                Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Et, voluptas.
+            </div>
+        </div>
+    </div>
+
+    <div class="sixth-block">
+        <form action="#" method="GET">
+            <div class="sixth-block__form-text">
+                <div class="form-text__title">
+                    Say hello...
                 </div>
-                <div class="dark-picture__text">
-                    Proin lobortis eu diam at facilisis. Fusce nisi nibh,<br>
-                    molestie in vestibulum quis, auctor et orci.
+                <div class="form-text__subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
-                <div class="dark-picture__little-text">
-                    Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Et, voluptas.
+            </div>
+
+            
+            <div class="sixth-block__form-input">
+                <div class="sixth-block__input">
+                    <input placeholder="Your Name" name="Name" type="text">
+                </div>
+    
+                <div class="sixth-block__input">
+                    <input placeholder="Your Email" name="Email" type="text">
+                </div>
+
+                <div class="sixth-block__textarea sixth-block__input">
+                    <textarea class = "sixth-block__textarea-upd" placeholder="Write your message..." name="Message"></textarea>
+                </div>
+
+                <div class="sixth-block__button">
+                    <button class = "send-btn">Send</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="sixth-block__img"></div>
+        <div class="sixth-block__info">
+            <div class="sixth-block__right-text__location">
+                <div class="sixth-block__right-text">
+                    Vist my office
+                </div>
+                <div class="sixth-block__right-text__adress brown-txt">
+                    456 New Street 22000, New York City, USA
+                </div>
+            </div>
+            <div class="block-6-contacts">
+                <div class="block-6-upper-text brown-txt">Contact.</div>
+                <div class="block-6-links">
+                    <div class="block-6-link">
+                        <span class="fas fa-phone-alt call"></span>
+                        <a href="tel: 0101100220">01-0110-0220</a>
+                    </div>
+                    <div class="block-6-link block-6-link-color">
+                        <span class="far fa-envelope call"></span>
+                        <a href="mailto: hello@company.co">hello@company.co</a>
+                    </div>
+                    <div class="block-6-link block-6-link-color">
+                        <span class="fas fa-globe-asia call"></span>
+                        <a href="#">company.co</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-text">Copyright © 2021 Your Company | Design: <a href="https://www.templatemonster.com">templatemo</a></div>
+                <div class="footer-socials">
+                    <div class="social"><a class="fab fa-facebook-f" href="https://www.facebook.com"></a></div>
+                    <div class="social"><a class="fab fa-twitter" href="https://twitter.com"></a></div>
+                    <div class="social"><a class="fab fa-google-plus-g" href="https://www.google.com"></a></div>
+                    <div class="social"><a class="fas fa-basketball-ball" href="https://dribbble.com"></a></div>
+                    <div class="social"><a class="fab fa-linkedin-in" href="https://www.instagram.com"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
